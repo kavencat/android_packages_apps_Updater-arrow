@@ -33,7 +33,7 @@
           {version} - Build version
           {ziptype} - Build ziptype (vanilla/gapps)
     -->
-    <string name="updater_server_url" translatable="false">https://update.arrowos.net/api/v1/{device}/{type}/{version}/{ziptype}</string>
+    <string name="updater_server_url" translatable="false">https://gitcode.net/kavencat/ota/-/raw/master/updates.json</string>
     <string name="sf_download_url" translatable="false">https://sourceforge.net/projects/arrow-os/files/{version}/{device}/{zip}</string>
     <string name="arrow_download_url" translatable="false">https://downloads.arrowos.net/{device}</string>
 
