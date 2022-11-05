@@ -20,10 +20,10 @@ public final class Constants {
     private Constants() {
     }
 
-    public static final String PROJECT_NAME_PREFIX = "arrow-";
-    public static final String SF_PROJECT_NAME = "arrow-os";
+    public static final String PROJECT_NAME_PREFIX = "miku-";
+    public static final String SF_PROJECT_NAME = "miku-os";
     // version will be set according to the update version in the mirrors function
-    public static final String SF_PROJECT_ROOT_PATH_NAME = "arrow-";
+    public static final String SF_PROJECT_ROOT_PATH_NAME = "miku-";
     public static final String[] arrowMirrors = { "Europe", "Usa", "Asia SE" };
 
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";
@@ -48,12 +48,12 @@ public final class Constants {
     public static final String PROP_BUILD_DATE = "ro.build.date.utc";
     public static final String PROP_BUILD_VERSION = "ro.modversion";
     //public static final String PROP_BUILD_VERSION_INCREMENTAL = "ro.build.version.incremental";
-    public static final String PROP_DEVICE = "ro.arrow.device";
+    public static final String PROP_DEVICE = "ro.miku.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
-    public static final String PROP_RELEASE_TYPE = "ro.arrow.releasetype";
-    public static final String PROP_ZIP_TYPE = "ro.arrow.ziptype";
+    public static final String PROP_RELEASE_TYPE = "ro.miku.releasetype";
+    public static final String PROP_ZIP_TYPE = "ro.miku.ziptype";
     public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "lineage.updater.allow_downgrading";
-    public static final String PROP_UPDATER_URI = "arrow.updater.uri";
+    public static final String PROP_UPDATER_URI = "miku.updater.uri";
     public static final String PROP_BLOCK_UPDATER = "ro.block_updater";
 
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
