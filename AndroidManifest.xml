@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.lineageos.updater"
+    package="org.miku.updater"
     android:versionCode="1">
 
     <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
